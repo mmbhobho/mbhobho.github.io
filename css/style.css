@@ -338,4 +338,13 @@ header a
 {
 	font-size: 12px;
 }
+	#showcase
+{
+	min-height: 300px;
+}
+	#showcase h1
+{
+	margin: 0px 0 40px 0;
+	padding-top: 20px;
+}
 }
