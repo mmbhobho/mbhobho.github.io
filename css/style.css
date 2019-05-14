@@ -281,7 +281,7 @@ header nav a:hover
 
 #sidebar
 {
-	margin: 20px 50px 20px 50px;
+	margin: 120px 50px 20px 50px;
 	padding: 20px;
 	color: #FFFFFF;
 	background: #000000;
@@ -290,7 +290,7 @@ header nav a:hover
 	position: absolute;
 	//top: 50px;
 	//left: 800px;
-	top: 20%;
+	top: 50%;
 	left: 58%;
 	min-height: 680px;
 	background-color: transparent;
