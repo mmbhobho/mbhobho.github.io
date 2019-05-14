@@ -220,9 +220,9 @@ header nav a:hover
 }
 #proposed_solution11
 {
-	margin: 20px 50px 20px 50px;;
+	margin: 20px 50px 20px 50px;
 	padding: 20px;
-	color: #FFFFFF;
+	color: #FFF;
 	background: #000000;
 	border: #000000 1px solid;
 	width: 50%;
@@ -311,4 +311,31 @@ footer p
 footer p:hover
 {
 	font-weight: bold;
+}
+
+@media(max-width: 768px)
+{
+header
+{
+	min-height: 50px;
+	font-size: 11px;
+}
+header li
+{
+    float: center;
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+#problem_statement, #proposed_solution, #specifications, #constraints, #end_goal, #problem_statement1, #proposed_solution1, #specifications1, #constraints1,
+#sidebar, #proposed_solution11, #specifications11
+{
+	margin: 10px 20px 10px 20px;
+	padding: 10px;
+	font-size: 11px;
+}
+
+header a
+{
+	font-size: 12px;
+}
 }
