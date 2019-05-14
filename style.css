@@ -36,3 +36,11 @@ h1{
     background-image: url('./img/okuhle.jpg');
     height: 100vh;
 }
+
+@media(max-width: 768px)
+{
+h1
+{
+    font-size: 50px;
+}
+}

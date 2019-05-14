@@ -1,0 +1,152 @@
+What is a firewall? Can you provide any examples of firewalls?
+
+How Firewalls Work. A firewall is simply a program or hardware device that filters the information coming through the Internet connection into your private network or computer system. If an incoming packet of information is flagged by the filters, it is not allowed through.
+
+The Windows Firewall is a security application created by Microsoft and built into Windows, designed to filter network data transmissions to and from your Windows system and block harmful communications and/or the programs that are initiating them
+
+ZoneAlarm Free Firewall 2017. ZoneAlarm is a well-known name in the world of computer security. ...
+Tinywall. ...
+Anti NetCut3. ...
+Comodo Free Firewall. ...
+PeerBlock. ...
+Little Snitch [Mac] ...
+Private Eye [Mac] ...
+
+********************************************
+
+Where can you check what processes are running?
+task manager
+
+*******************************
+How would you troubleshoot a slow running Windows Machine?
+
+Try the Performance troubleshooter.
+Delete programs you never use.
+Limit how many programs run at startup.
+Clean up your hard disk.
+Run fewer programs at the same time.
+Turn off visual effects.
+Restart regularly.
+Change the size of virtual memory
+
+**************************************************
+
+What are some of the common logs that can be found in the Event Viewer on a Windows Server?
+
+The Windows Event Viewer shows a log of application and system messages, including errors, information messages, and warnings. It’s a useful tool for troubleshooting all kinds of different Windows problems.
+
+
+****************************************
+What is Active Directory?
+
+A server running Active Directory Domain Services (AD DS) is called a domain controller. It authenticates and authorizes all users and computers in a Windows domain type network—assigning and enforcing security policies for all computers and installing or updating software.
+
+
+*****************************
+******************************
+
+
+How does traceroute actually work?
+
+TTL stands for Time To Live. When a TCP packet is sent, its TTL is set, which is the number of routers (hops) it can pass through before the packet is discarded. As the packet passes through a router the TTL is decremented until, when the TTL reaches zero, the packet is destroyed and an ICMP "time exceeded" message is returned. The return message's TTL is set by the terminating router when it creates the packet, and decremented normally.
+
+Trace Route works by setting the TTL for a packet to 1, sending it towards the requested destination host, and listening for the reply. When the initiating machine receives a "time exceeded" response, it examines the packet to determine where the packet came from - this identifies the machine one hop away. Then the tracing machine generates a new packet with TTL 2, and uses the response to determine the machine 2 hops away, and so on.
+*****************************************
+*******************************************
+
+
+
+Step 3. DNS lookup to find the ip address of the server
+when we want to connect to google.com, we actually want to reach out to a server where google web services are hosted. One such server is having an ip address of 74.125.236.65. Now, if you type "http://74.125.236.65" in your browser, this will take you to google home page itself. Which means, "http://google.com" and "http://74.125.236.65" are nothing but same stuff. But, it is not so. Google has multiple servers in multiple locations to cater to the huge volume of requests they receive per second. Thus we should let Google decide which server is best suited to our needs. Using "google.com" does the job for us. When we type "google.com", DNS(Domain Name System) services comes into play and resolves the URL to a proper ip address. 
+
+Step 4. Browser initiates a TCP connection with the server.
+
+Step 5. Browser sends a HTTP request to the server.
+Browser sends a GET request to the server according to the specification of HTTP(Hyper Text Transfer Protocol) protocol. 
+
+Server handles the incoming request
+
+ Browser receives the HTTP response
+
+
+******************************************
+Describe the TCP handshake process?
+
+A three-way handshake is a method used in a TCP/IP network to create a connection between a local host/client and server. It is a three-step method that requires both the client and server to exchange SYN and ACK (acknowledgment) packets before actual data communication begins.
+
+A three-way handshake is also known as a TCP handshake.
+
+
+
+Techopedia explains Three-Way Handshake
+A three-way handshake is primarily used to create a TCP socket connection. It works when:
+
+A client node sends a SYN data packet over an IP network to a server on the same or an external network. The objective of this packet is to ask/infer if the server is open for new connections.
+The target server must have open ports that can accept and initiate new connections. When the server receives the SYN packet from the client node, it responds and returns a confirmation receipt – the ACK packet or SYN/ACK packet.
+The client node receives the SYN/ACK from the server and responds with an ACK packet.
+Upon completion of this process, the connection is created and the host and server can communicate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+
+List some command line tools that can be used to test and troubleshoot network issues
+
+
+
+Ping
+Tracert/traceroute
+ Ipconfig/ifconfig
+PuTTY/Tera Term
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

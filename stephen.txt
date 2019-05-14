@@ -1,0 +1,49 @@
+Hi there,
+
+ 
+
+Thank you for recently showing an interest in our graduate cloud support associate role and applying. I have reviewed your profile and would like to push you through to the next step in the process.
+
+ 
+
+The next step is for you to complete a phone interview with one of our engineers.
+
+You will be mailed soon requesting that you indicate dates and times that you will be available for interview. Please note when indicating your times, that after midday is when we usually have more engineers available to conduct interviews.
+
+ 
+
+Your interview will focus on your skills in networking and operating systems (indicate your favored OS from Windows/Linux) as well as some Leadership Principles and an interesting project you worked on while studying. Please be able to explain what your project was about and your role J
+
+On the tech side, your interviewers will be looking for conceptual understanding of the fundamentals in these areas as well as checking your troubleshooting, logic and problem solving. For instance, what would you do if your computer started running slowly? How would you solve it? Saying turning the computer off and on again would be a bad answer J
+
+They want to see how you would logically find the reason for the slowness and then what would you do to fix it.
+
+What other tech areas are you familiar with? Do you have a good understanding of databases/big data/deployment/scripting etc., tell them so that they can ask you about it? These extra skills could be the difference between progressing or not
+
+ 
+
+Because I really want you to do well and to assist you with your prep for the interviews, I have included some resources below and attached others for you to look at. You of course don’t need to go through everything, but just providing you with lots of resources. I have included some examples of the type of tech questions you could be asked to get you on the right path of thinking, so perhaps use that in conjunction with the other resources to make sure you are well prepared.
+
+·         You can learn more about interviewing with us here
+
+·         Free training you can look at: https://aws.amazon.com/training/course-descriptions/cloud-practitioner-essentials/ 
+
+·         Qwiklabs is a great tool to get your hands dirty with AWS. They provide free labs: https://qwiklabs.com/
+
+ 
+
+·         exploring AWS itself if you haven’t already; you can do this by opening a free tier account.
+
+·         developing your skills would be by doing some of our Labs: https://aws.amazon.com/training/self-paced-labs/   (Please note these do come at a minimal fee)
+
+ 
+
+ 
+
+With regards to the non-tech related questions, our interviewers will be looking for passion and curiosity around technology. What is the coolest thing you have learnt outside of your studies just because you were interested? Can you tell us about something that you perhaps learnt during studies and then you went further in your own time, to read up more and get a deeper understanding just because it was interesting? What is an area of tech that you are currently interested in? what interests you about it? What have you learnt about it so far? Are you perhaps working on any projects using this tech?
+
+ 
+
+These are just some questions to stoke the fire and get you thinking J
+
+I hope these pointers help and hope to see you making it to the next stage of interviews at our offices in Cape Town.
