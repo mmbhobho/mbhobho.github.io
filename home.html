@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" type="image/ico" href="./img/iconn.ico">
+	
 </head>
 <body id="unique">
 	<header>
@@ -13,11 +14,11 @@
 			<div id="branding">
 				<h1><a href="index.html">mm_bhobho</a></h1>
 				<nav>
-					<li><a href="UberOsizweni.html">UberOsizweni</a></li>
-					<li><a href="Engineering made easy.html">Engineering made easy</a></li>
-					<li><a href="Roots.html">Roots</a></li>
+					<li><a href="Engineering made easy.html">Eng made easy</a></li>
 					<li><a href="intruder.html">intruder</a></li>
 					<li><a href="Garden.html">Garden</a></li>
+					<li><a href="Roots.html">Roots</a></li> 
+					<li><a href="UberOsizweni.html">UberOsizweni</a></li>
 				</nav>
 			</div>
 		</div>
@@ -25,27 +26,50 @@
 
 	<section id="showcase">
 		<div class="container">
-			<h1> Ngcebo Zulu Projects</h1>
-			<p> Ouche flexing my fingers. Scroll</p><p>through the web-site to see what I'm</p> <p>on. I'm bossing with HTML, CSS,</p>     <p>JavaScript and PHP. Hit me up if you</p> <p>want me to build you a web-site for FREE</p>
+			<h1> mm_bhobho Projects</h1>
+			<p> My real name is Ngcebo Zulu. I matriculated with 6 distinctions, recently graduated for BSc in Electronic Engineering. An ex Eskom bursar, I was scheduled to be part of EIT graduate program offered by Eskom. Earlier this year, Eskom put graduate programs on-hold as they did not have enough budget.
+
+			I have been working at the car wash for 6 months now, so I can buy data and apply for Internships. I posted my picture on LinkedIn and it received overwhelming response. I was offered a 5 month learnership by Mr Edwin Phiri from Mineral Technologies in Richards Bay. This website contain projects I was working on while working at the car wash. <br>
+			<br>
+			Email: 214529134@stu.ukzn.ac.za <br>
+			Phone no : 061 4100 661
+
+		</p>
 		</div>
 	</section>
 
 	<section id="boxes">
 		<div class="box">
-			<img src="./img/showcase1.jpg">
+			<a href="Engineering made easy.html"><img src="./img/showcase2.jpg"></a>
+			<span class="mousetool" id="mousetool1">Eng made easy</span>
 		</div>
 		<div class="box">
-			<img src="./img/showcase2.jpg">
+			<a href="intruder.html"><img src="./img/showcase4.jpg"></a>
+			<span class="mousetool" id="mousetool2">intruder</span>
 		</div>
 		<div class="box">
-			<img src="./img/showcase3.jpg">
+			<a href="Garden.html"><img src="./img/showcase5.jpg"></a>
+			<span class="mousetool" id="mousetool3">Garden</span>
 		</div>
 		<div class="box">
-			<img src="./img/showcase4.jpg">
+			<a href="Roots.html"><img src="./img/showcase3.jpg"></a>
+			<span class="mousetool" id="mousetool4">Roots</span>
 		</div>
 		<div class="box">
-			<img src="./img/showcase5.jpg">
+			<a href="UberOsizweni.html"><img src="./img/showcase1.jpg"></a>
+			<span class="mousetool" id="mousetool5">UberOsizweni</span>
 		</div>
+	</section>
+
+	<section id="buttons">
+		<div id="all">
+		<div class="games">
+			<a href="snake.html" class="btn"> Snake</a>
+		</div>
+		<div class="games">
+			<a href="wordmatcher.html" class="btn"> Word Matcher</a>
+		</div>
+	</div>
 	</section>
 
 	<footer id="about-footer">
@@ -53,3 +77,53 @@
 	</footer>
 </body>
 </html>
+
+<script type="text/javascript">
+	var mousetool1 = document.getElementById('mousetool1');
+	window.onmousemove = function(e1){
+		var x1 = e1.clientX;
+		var y1 = e1.clientY;
+		mousetool1.style.top = (y1 + 20) + 'px';
+
+		mousetool1.style.left = (x1 + 20) + 'px';
+
+	}	
+/*
+	var mousetool2 = document.getElementById('mousetool2');
+	window.onmousemove = function(e){
+		var x = e.clientX;
+		var y = e.clientY;
+		mousetool2.style.top = (y + 20) + 'px';
+
+		mousetool2.style.left = (x + 20) + 'px';
+
+	}
+		var mousetool3 = document.getElementById('mousetool3');
+	window.onmousemove = function(e){
+		var x = e.clientX;
+		var y = e.clientY;
+		mousetool3.style.top = (y + 20) + 'px';
+
+		mousetool3.style.left = (x + 20) + 'px';
+
+	}
+		var mousetool4 = document.getElementById('mousetool4');
+	window.onmousemove = function(e){
+		var x = e.clientX;
+		var y = e.clientY;
+		mousetool4.style.top = (y + 20) + 'px';
+
+		mousetool4.style.left = (x + 20) + 'px';
+
+	}
+		var mousetool5 = document.getElementById('mousetool5');
+	window.onmousemove = function(e){
+		var x = e.clientX;
+		var y = e.clientY;
+		mousetool5.style.top = (y + 20) + 'px';
+
+		mousetool5.style.left = (x + 20) + 'px';
+
+	}*/
+
+</script>

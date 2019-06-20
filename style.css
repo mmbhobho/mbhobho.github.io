@@ -39,8 +39,13 @@ h1{
 
 @media(max-width: 768px)
 {
-h1
+ h1
 {
     font-size: 50px;
+}
+#particles-js{
+    background: url('./img/okuhle.jpg');
+    background-size: cover;
+    height: 100vh;
 }
 }
