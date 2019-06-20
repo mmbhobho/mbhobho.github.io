@@ -357,10 +357,14 @@ footer p:hover
 	margin-bottom: 300px;
 	color: white;
 	font-size: 20px;
-	border: #FFFFFF 1px solid;
+	//border: #FFFFFF 1px solid;
 	padding: 20px 20px; 
 	background-color: #000000;
 
+}
+#wordmatcher_game:hover
+{
+	border: #FFFFFF 1px solid;
 }
 #wordmatcher_game input
 {
@@ -452,5 +456,41 @@ header nav
 	background: url('../img/okuhle.jpg');
     background-size: cover;
     min-height: 300px;
+}
+
+#snake
+{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 400px;
+	border: #FFFFFF 1px solid;
+	width : 200px;
+	height: 200px;
+
+}
+
+#wordmatcher_game
+{
+	margin-top: 50px;
+	margin-left: 50px;
+	
+	margin-bottom: 300px;
+	color: white;
+	font-size: 20px;
+	
+	 
+	background-color: #000;
+
+}
+#wordmatcher_game input
+{
+	padding: 4px;
+	height: 25px;
+	width: 100px;
+	border: 1px #7df9ff solid;
+}
+#wordmatcher_game p, h2, input, h3, h4
+{
+	//margin-bottom: 20px;
 }
 }
