@@ -482,6 +482,10 @@ header nav
 	background-color: #000;
 
 }
+#wordmatcher_game:hover
+{
+	border: #000 1px solid;
+}
 #wordmatcher_game input
 {
 	padding: 4px;
