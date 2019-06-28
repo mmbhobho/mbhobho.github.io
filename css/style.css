@@ -280,6 +280,102 @@ header nav a:hover
 	margin-bottom: 15px;
 }
 
+#gproblem_statement
+{
+	margin: 20px 200px 20px 100px;
+	padding: 20px;
+	color: #FFFFFF;
+	background: transparent;
+	border: #FFFFFF 1px solid;
+}
+#gproblem_statement:hover
+{
+	background: url('../img/garden.jpg') repeat -20px -100px;
+	min-height: 500px;
+	color: #000;
+}
+#gproblem_statement h1
+{
+	margin-bottom: 15px;
+}
+#gproposed_solution
+{
+	margin: 20px 200px 20px 100px;
+	padding: 20px;
+	color: #FFFFFF;
+	background: transparent;
+	border: #FFFFFF 1px solid;
+}
+#gproposed_solution:hover
+{
+	background: url('../img/garden.jpg') repeat -20px -100px;
+	min-height: 500px;
+	color: #000;
+}
+#gproposed_solution h1
+{
+	margin-bottom: 15px;
+}
+#gspecifications
+{
+	margin: 20px 200px 20px 100px;
+	padding: 20px;
+	color: #FFFFFF;
+	background: transparent;
+	border: #FFFFFF 1px solid;
+}
+#gspecifications:hover
+{
+	background: url('../img/garden.jpg') repeat -20px -100px;
+	min-height: 500px;
+	color: #000;
+}
+#gspecifications h1
+{
+	margin-bottom: 15px;
+}
+
+#gconstraints
+{
+	margin: 20px 200px 20px 100px;
+	padding: 20px;
+	color: #FFFFFF;
+	background: transparent;
+	border: #FFFFFF 1px solid;
+}
+#gconstraints:hover
+{
+	background: url('../img/garden.jpg') repeat -20px -100px;
+	min-height: 500px;
+	color: #000;
+}
+
+#gconstraints h1
+{
+	margin-bottom: 15px;
+}
+#gend_goal
+{
+	margin: 20px 200px 20px 100px;
+	padding: 20px;
+	color: #FFFFFF;
+	background: transparent;
+	border: #FFFFFF 1px solid;
+	margin-bottom: 350px;
+}
+#gend_goal:hover
+{
+	//background-color: gold;
+	background: url('../img/garden.jpg') repeat -20px -100px;
+	min-height: 500px;
+	color: #000;
+
+}
+
+#gend_goal h1
+{
+	margin-bottom: 15px;
+}
 #sidebar
 {
 	margin: 20px 50px 20px 50px;
@@ -357,14 +453,10 @@ footer p:hover
 	margin-bottom: 300px;
 	color: white;
 	font-size: 20px;
-	//border: #FFFFFF 1px solid;
+	border: #FFFFFF 1px solid;
 	padding: 20px 20px; 
 	background-color: #000000;
 
-}
-#wordmatcher_game:hover
-{
-	border: #FFFFFF 1px solid;
 }
 #wordmatcher_game input
 {
@@ -456,45 +548,5 @@ header nav
 	background: url('../img/okuhle.jpg');
     background-size: cover;
     min-height: 300px;
-}
-
-#snake
-{
-	margin-top: 50px;
-	margin-left: 50px;
-	margin-bottom: 400px;
-	border: #FFFFFF 1px solid;
-	width : 200px;
-	height: 200px;
-
-}
-
-#wordmatcher_game
-{
-	margin-top: 50px;
-	margin-left: 50px;
-	
-	margin-bottom: 300px;
-	color: white;
-	font-size: 20px;
-	
-	 
-	background-color: #000;
-
-}
-#wordmatcher_game:hover
-{
-	border: #000 1px solid;
-}
-#wordmatcher_game input
-{
-	padding: 4px;
-	height: 25px;
-	width: 100px;
-	border: 1px #7df9ff solid;
-}
-#wordmatcher_game p, h2, input, h3, h4
-{
-	//margin-bottom: 20px;
 }
 }
